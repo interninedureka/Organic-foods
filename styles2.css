@@ -63,3 +63,102 @@
   position: relative;
   top: 25%;
 }
+
+/* Menu */
+.filter-menu {
+  margin: 2% auto;
+}
+
+.filter {
+  padding-left: 6%;
+}
+
+@media (max-width: 770px) {
+  .filter {
+    padding-left: 0;
+  }
+
+  .sort {
+    display: inline-block;
+  }
+
+  .rating {
+    display: inline-block;
+  }
+
+  .price {
+    display: inline-block;
+  }
+}
+
+.sort {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 4%;
+}
+
+.sort-title {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+}
+
+.rating {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 4%;
+  margin-top: 4%;
+}
+
+.rating-title {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+}
+
+.price {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 4%;
+  margin-top: 4%;
+}
+
+.price-title {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+}
+
+.menu-title {
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+}
+
+.menu-item {
+  background-color: #FBF8F1;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 2%;
+  padding: 1%;
+  width: 20%;
+}
+
+@media (max-width: 660px) {
+  .menu-item {
+    width: 40%;
+  }
+}
+
+.menu-item-img {
+  width: 100%;
+}
+
+.menu-item-name {
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+  margin-top: 2%;
+}
+
+.menu-item-sub {
+  color: grey;
+}
